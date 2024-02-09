@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div2</title>
+    <style>
+       /*размещение в строку-*/
+        div{
+       /*     display: inline-block;*/
+       /*     margin: 20px;*/
+       /*     float: left;*/
+            margin: 5px;
+        }
+       /*--------------------*/
+        .red{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            transition: 0.3s;
+        }.green{
+            width: 50px;
+            height: 50px;
+            background-color: green;
+                     transition: 0.3s;
+        }.yellow{
+            width: 50px;
+            height: 50px;
+            background-color: yellow;
+                              transition: 0.3s;
+        }
+         .flex{
+             height: 150px;
+             background-color: aquamarine;
+             display: flex;
+             justify-content: center;
+             /*justify-content: flex-end;*/
+             /*justify-content: space-around;*/
+             align-items: center;
+             flex-wrap: wrap;
+         }
+       /*.aling-self{*/
+       /*    align-self: end;*/
+       /*}*/
+       .green:hover{
+           background-color: darkcyan;
+           border-radius: 50%;
+           transition: 0.5s;
+       }
+       .red:hover{
+           transform: rotate(180deg);
+           transition: 0.5s;
+       }
+       .yellow:hover{
+           transform: scale(120%);
+           transition: 0.5s;
+       }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="red"></div>
+    <div class="green aling-self"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+    <div class="yellow"></div>
+</div>
+</body>
+</html>
