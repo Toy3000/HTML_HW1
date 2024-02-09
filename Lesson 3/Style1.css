@@ -1,0 +1,60 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+
+header{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header div h4{
+    margin: 0;
+    text-align: center;
+    color: dodgerblue;
+}
+header div p{
+    margin: 0;
+    text-align: center;
+    color: dodgerblue;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: gray;
+    color: dodgerblue;
+}
+main{
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1707301451568-171b23a63ba4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main p{
+    font-size: 20px;
+    color: dodgerblue;
+}
+main h1{
+    font-size: 100px;
+    color: dodgerblue;
+    margin: 0;
+    letter-spacing: 30px;
+}
+.toptext{
+    margin-top: 50px;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
