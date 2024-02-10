@@ -1,0 +1,21 @@
+
+header{
+    background-color: pink;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    background-color: brown;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*h1{*/
+/*    font-size: ;*/
+/*}*/
+

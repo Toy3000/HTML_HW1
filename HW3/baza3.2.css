@@ -1,0 +1,41 @@
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    /*justify-content: flex-end;*/
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    margin: 20px;
+}
+p{
+    margin: 20px;
+}
