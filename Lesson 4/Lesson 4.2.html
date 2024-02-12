@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 4.2</title>
+    <style>
+        label{
+            display: block;
+            margin: 10px 0;
+        }
+        sup{
+            color: red;
+        }
+        textarea{
+            width: 200px;
+            height: 50px;
+            resize: none;
+        }
+        input[type="text"]
+        {
+            height: 50px;
+            width: 200px;
+            border: 2px solid olivedrab;
+            border-radius: 3px;
+            background-color: honeydew;
+            color: darkcyan;
+            text-overflow: ellipsis;
+        }
+        input[type="text"]::placeholder{
+            color: green;
+            font-family: 'Sedgwick Ave Display', cursive;
+        }
+        input[type="text"]:focus{
+            background-color: wheat;
+            /*outline: 2px solid mediumturquoise;*/
+            outline: none;
+            border: 2px solid mediumturquoise;
+        }
+        input[type="checkbox"]{
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            border: 1px solid yellowgreen;
+            border-radius: 4px;
+            margin: -2px;
+        }
+        input[type="checkbox"]:checked{
+            background-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABIElEQVR4nO3VwSoFURwH4A+h2FAUz3ElS0l5CgsWNrJjKxs2XoDuAygegFhZiMJKdq4dC5KUhY2uTo263c4dZM50F/dXv83M1NfMnPM/dNIGWcQdrjBaFrqFekOrZaBzTWjoJyqp4ZMIHHqGrpTwWws4dD4l/JIDP2AwFXyRA4dOpoLXctBb9KaCx/HeAp6ROBsRNAyS5BnEfRP8hOEy8Al8NOGn6C8DX4l88r3Ug+Q7uxF8WwnpwUEE38nuNSZstSkMFIX34TCCH2Eoe2YaN9n1Ryyhu6iVfhzBn3Gdc7BUinrz/R9GauxIrWLkv3hP9n/rf+ylgrIc2ed5rSl4yNR+CS8oOGHRreccLKGbEmYMqzjP5vprtt1mU6KdtG++AA/oqGgeE678AAAAAElFTkSuQmCC");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Tell me your boring name</label>
+<!--        <br>-->
+        <input type="text" name="username" id="name" placeholder="Name" required> <sup>*</sup>
+
+        <label for="password">Tell me your creative password</label>
+<!--        <br>-->
+        <input type="password" name="password" id="password" placeholder="qwerty123" required> <sup>*</sup>
+
+        <label for="age">Tell me your age</label>
+<!--        <br>-->
+        <input type="number" name="age" id="age" placeholder="18+" required min="18" max="99"> <sup>*</sup>
+
+        <label>Gender</label>
+        <label> <input type="radio" name="gender" value="male"> Male</label>
+        <label> <input type="radio" name="gender" value="female"> FeMale</label>
+        <label> <input type="radio" name="gender" value="emaile"> EMaile</label>
+
+        <label>
+            <input type="checkbox" name="news"> Follow us
+        </label>
+
+        <select>
+            <optgroup label="V">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </optgroup>
+            <optgroup label="F">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </optgroup>
+        </select>
+
+        <label for="comment">What do you think?</label>
+        <textarea id="comment"></textarea>
+
+        <br>
+        <input type="submit" value="Click">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
