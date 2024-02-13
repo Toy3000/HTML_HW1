@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+}
+
+.top{
+    background-image: url("img/image 4.png");
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E5050;
+}
+
+.top{
+
+}
+
+.top-div{
+    width: 70vw;
+    height: 40vh;
+    /*background-color: #8A8484;*/
+    display: flex;
+}
+
+.pres-img{
+    width: 35vw;
+    height: 40vh;
+    background-color: #9B6F6F;
+}
+
+.pres-text{
+    width: 35vw;
+    height: 40vh;
+    background-color: #524B4B;
+}
+
+.mid{
+    background-color: #A74848;
+}
+
+.mid-video{
+    width: 70vw;
+    height: 60vh;
+    background-color: #644C4C;
+}
+
+.mid-text{
+    margin-top: 5vh;
+    width: 70vw;
+    height: 20vh;
+    background-color: #441818;
+}
+
+.box-sell{
+    width: 30vw;
+    height: 80vh;
+    background-color: #BDBDBD;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sell-img{
+    width: 90%;
+    height: 40%;
+    background-color: dodgerblue;
+}
+
+.sell-text{
+    width: 90%;
+    height: 30%;
+    background-color: darkgray;
+}
+
+.sell-button{
+    width: 90%;
+    height: 20%;
+    background-color: aquamarine;
+}
