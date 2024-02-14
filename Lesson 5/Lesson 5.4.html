@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 5.4</title>
+    <style>
+        /*ol>li:nth-child(odd){*/
+        /*    color: lightskyblue*/
+        /*}*/
+        /*ol>li:nth-child(even){*/
+        /*    color: lightskyblue*/
+        /*}*/
+        /*ol>li:nth-child(3n+4){*/
+        /*    color: lightskyblue*/
+        /*}  */
+        ol>li:first-letter{
+            color: lightskyblue;
+            font-size: 20px;
+        }
+        ol>li:first-child{
+            color: blue;
+        }
+        ol>li:last-child{
+            color: deepskyblue;
+        }
+        p::first-line{
+            color: darkorange;
+        }
+        ol>li::after{
+            content: "!!!";
+            font-size: 20px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>Lorem ipsum dolor.</li>
+        <li>Est natus, odit.</li>
+        <li>Iure, optio recusandae!</li>
+        <li>Delectus, numquam veniam.</li>
+        <li>Illo, impedit, ipsam?</li>
+        <li>Iste, possimus sit?</li>
+        <li>Ab, consequatur, ullam!</li>
+        <li>Ab, accusantium totam?</li>
+        <li>Aspernatur, enim quos?</li>
+        <li>Corporis, sit tempore!</li>
+    </ol>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid architecto aspernatur atque, beatae dignissimos dolor doloremque eligendi exercitationem harum hic, illo impedit iusto maxime nam neque nobis odio officia omnis perferendis provident quae quam quasi qui rerum temporibus veniam. Ad, dolorem magnam natus necessitatibus quas recusandae rem similique! A adipisci aliquam architecto aut beatae consequatur deleniti deserunt dignissimos distinctio doloremque doloribus expedita id iste, molestias neque numquam perspiciatis reiciendis repudiandae, sapiente tempore vel vero, voluptate! Accusamus aliquam asperiores beatae corporis culpa error facilis, incidunt inventore itaque odit optio porro quam qui quibusdam rem repudiandae tempore veniam! Consequatur, laudantium tempora!</p>
+</body>
+</html>

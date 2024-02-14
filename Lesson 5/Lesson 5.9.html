@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 5.9</title>
+    <style>
+        .card{
+            width: 200px;
+            height: 200px;
+            border: 2px solid darkgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            flex-direction: column; /*выравниваение текста*/
+            margin: 40px;
+            position: relative;
+        }
+        .card p{
+            margin: 0;
+        }
+        .sale{
+            width: 30px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: firebrick;
+            position: absolute;
+            top: -15px;
+            left: -15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="sale"></div>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+    </div>
+</body>
+</html>
