@@ -1,0 +1,41 @@
+@media screen and (min-width: 100px) and (max-width: 600px){
+    body{
+        margin: 0;
+        text-align: center;
+    }
+    p{
+        margin: 0;
+    }
+    .a{
+        width: 100vw;
+        height: 30vh;
+        background-color: gray;
+        border: 1px solid white;
+    }
+    .bcdef{
+        display: block;
+        width: 100vw;
+        height: 70vh;
+    }
+    .bcde{
+        width: 100vw;
+        height: 50vh;
+    }
+    .cde{
+        width: 100vw;
+        height: 20vh;
+    }
+    .b{
+        width: 100vw;
+        height: 30vh;
+        background-color: gray;
+    }
+    .c, .d, .e{
+        width: 33vw;
+        height: 20vh;
+    }
+    .f{
+        width: 100vw;
+        height: 20vh;
+    }
+}

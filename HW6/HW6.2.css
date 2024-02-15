@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+p{
+    margin: 0;
+}
+.a{
+    width: 100vw;
+    height: 40vh;
+    background-color: gray;
+    border: 1px solid white;
+}
+.bcdef{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bcde{
+    width: 60vw;
+    height: 60vh;
+}
+.b{
+    width: 60vw;
+    height: 30vh;
+    background-color: gray;
+    border: 1px solid white;
+}
+.cde{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c, .d, .e{
+    width: 20vw;
+    height: 30vh;
+    background-color: gray;
+    border: 1px solid white;
+}
+.f{
+    width: 40vw;
+    height: 60vh;
+    background-color: gray;
+    border: 1px solid white;
+}

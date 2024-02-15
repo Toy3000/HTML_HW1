@@ -1,0 +1,31 @@
+@media screen and (min-width: 100px) and (max-width: 600px) {
+
+    body {
+        margin: 0;
+    }
+
+    .a, .b, .c {
+        text-align: center;
+        border: 2px solid white;
+    }
+    .bc{
+        display: block;
+        height: 70vh;
+    }
+    .a {
+        height: 30vh;
+        background-color: #C0B3B3;
+    }
+
+    .b {
+        width: 100vw;
+        height: 70vh;
+        background-color: #C0B3B3;
+    }
+
+    .c {
+        width: 100vw;
+        height: 30vh;
+        background-color: #C0B3B3;
+    }
+}

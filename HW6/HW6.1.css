@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.a, .b, .c{
+    text-align: center;
+    border: 2px solid white;
+}
+.a{
+    height: 30vh;
+    background-color: #C0B3B3;
+}
+.bc{
+    display: flex;
+    height: 70vh;
+}
+.b{
+    height: 70vh;
+    width: 80vw;
+    background-color: #C0B3B3;
+}
+.c{
+    height: 70vh;
+    width: 20vw;
+    background-color: #C0B3B3;
+}

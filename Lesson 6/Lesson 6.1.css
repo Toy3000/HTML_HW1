@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+header, footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: #A74848;
+}
+div{
+    display: flex;
+}
+main{
+    width: 60vw;
+    height: 60vh;
+    background-color: #696464;
+}
+section{
+    width: 40vw;
+    height: 60vh;
+    background-color: #AA9898;
+}
+article{
+    display: none;
+}
+p::after{
+    content: "desktop";
+}
