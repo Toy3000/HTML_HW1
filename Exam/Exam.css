@@ -1,4 +1,5 @@
 body{
+    position: relative;
     margin: 0;
     background-color: #19191b;
 }
@@ -42,14 +43,13 @@ header>div>img, .bot>div>img{
 }
 header>div.menu>a{
     color: rgba(255, 255, 255, 0.70);
-    text-align: right;
+    text-align: center;
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 30px;
-    width: auto;
+    margin: 20px;
     text-decoration: none;
 }
 .contact{
@@ -112,7 +112,10 @@ header>div.contact>button{
     margin: 0;
     width: 36.3vw;
 }
-.top>div>button {
+.top>div>a{
+    text-decoration: none;
+}
+.top>div>a>button {
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
@@ -135,7 +138,7 @@ header>div.contact>button{
 }
 .mid-1{
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     display: block;
     justify-content: center;
     align-items: center;
@@ -182,10 +185,14 @@ header>div.contact>button{
 }
 .mid-2{
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     display: block;
     justify-content: center;
     align-items: center;
+}
+.empty{
+    width: 100vw;
+    height: 10vh;
 }
 .mid-2-text{
     text-align: center;
@@ -263,7 +270,11 @@ header>div.contact>button{
 }
 .mid-3{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
+}
+.empty-2{
+    width: 100vw;
+    height: 25vh;
 }
 .mid-3>h1{
     color: #FFF;
@@ -275,18 +286,28 @@ header>div.contact>button{
     margin: 0 120px;
     height: 7vh;
 }
+.port-bord{
+    width: 336px;
+    height: 253px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 26px solid #1E1E20;
+    background-color: #1E1E20;
+    border-radius: 15px;
+}
+.port-bord-l{
+    margin: 0 0 0 120px;
+}
+.port-bord-r{
+    margin: 0 120px 0 0;
+}
 .mid-3-port{
     height: 73vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-}
-.mid-3-port>img{
-    border-radius: 15px;
-    border: 26px solid #1E1E20;
-    margin: -130px 13px 0px 13px;
-    background-color: #1E1E20;
 }
 footer{
     width: 100vw;

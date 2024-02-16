@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Exam</title>
     <link rel="stylesheet" href="Exam.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -22,21 +23,43 @@
             <p>Enver</p>
         </div>
         <div class="menu">
-            <a href="#" style="color: #5454D4">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Our Project</a>
-            <a href="#">About us</a>
+            <a href="#top" class="a-button">
+                <span class="a-button-line a-button-line--top"></span>
+                <span class="a-button-line a-button-line--right"></span>
+                <span class="a-button-line a-button-line--bot"></span>
+                <span class="a-button-line a-button-line--left"></span>
+                Home</a>
+            <a href="#mid-2" class="a-button">
+                <span class="a-button-line a-button-line--top"></span>
+                <span class="a-button-line a-button-line--right"></span>
+                <span class="a-button-line a-button-line--bot"></span>
+                <span class="a-button-line a-button-line--left"></span>
+                Services</a>
+            <a href="#mid-3" class="a-button">
+                <span class="a-button-line a-button-line--top"></span>
+                <span class="a-button-line a-button-line--right"></span>
+                <span class="a-button-line a-button-line--bot"></span>
+                <span class="a-button-line a-button-line--left"></span>
+                Our Project</a>
+            <a href="#bot" class="a-button">
+                <span class="a-button-line a-button-line--top"></span>
+                <span class="a-button-line a-button-line--right"></span>
+                <span class="a-button-line a-button-line--bot"></span>
+                <span class="a-button-line a-button-line--left"></span>
+                About us</a>
         </div>
         <div class="contact">
             <button>Contact us</button>
         </div>
     </header>
 
-    <section class="top">
+    <section class="top" id="top">
         <div class="top-text">
             <h1>Build Your Awesome Platform</h1>
             <p>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</p>
-            <button>Our Services</button>
+            <a href="#mid-2">
+                <button>Our Services</button>
+            </a>
         </div>
         <div class="top-img">
             <img src="img/Group%20162549%201.png" alt="happy-boy">
@@ -53,7 +76,8 @@
         </div>
     </section>
 
-    <section class="mid-2">
+    <section class="mid-2" id="mid-2">
+        <div class="empty"></div>
         <div class="mid-2-text"><h2>The Service We Provide For You</h2></div>
         <div class="mid-stuff-1">
             <div class="stuff-box stuff-font">
@@ -104,12 +128,13 @@
         </div>
     </section>
 
-    <section class="mid-3">
+    <section class="mid-3" id="mid-3">
+        <div class="empty-2"></div>
         <h1><strong>Our Awesome Portofolio</strong></h1>
         <div class="mid-3-port">
-            <img src="img/port-1.png" alt="port-1">
-            <img src="img/port-2.png" alt="port-2">
-            <img src="img/port-3.png" alt="port-3">
+            <div class="port-bord port-bord-l"><img src="img/port-1.png" alt="port-1"></div>
+            <div class="port-bord"><img src="img/port-2.png" alt="port-2"></div>
+            <div class="port-bord port-bord-r"><img src="img/port-3.png" alt="port-3"></div>
         </div>
     </section>
 
@@ -120,7 +145,7 @@
         </div>
     </footer>
 
-    <div class="bot">
+    <div class="bot" id="bot">
         <div class="logo">
             <img src="img/logo.png" alt="logo">
             <p>Enver</p>
