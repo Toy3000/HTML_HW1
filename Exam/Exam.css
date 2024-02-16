@@ -99,7 +99,7 @@ section>div>h1{
     font-style: normal;
     font-weight: 400;
     line-height: 84px; /* 105% */
-    /*margin: 130px;*/
+    margin: 0 0 40px 0;
 }
 section>div>p{
     color: rgba(255, 255, 255, 0.70);
@@ -127,6 +127,7 @@ section>div>p{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    padding: 0 60px 5px 0;
 }
 .mid-1{
     width: 100vw;
@@ -333,5 +334,5 @@ footer>div>button{
     font-weight: 400;
     line-height: 38px; /* 237.5% */
     letter-spacing: -0.5px;
-    margin: 51px 120px 0 0;
+    margin: 52px 120px;
 }
