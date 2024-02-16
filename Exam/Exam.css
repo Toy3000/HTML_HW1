@@ -10,7 +10,7 @@ header{
     width: 100vw;
     height: 120px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #19191b;
     z-index: +1;
@@ -58,7 +58,7 @@ header>div.menu>a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 35px 0 0;
+    margin: 0 40px 0 60px;
 }
 header>div.contact>button{
     width: 157px;
@@ -92,7 +92,7 @@ header>div.contact>button{
     /*height: 90vh;*/
     margin: 240px 120px;
 }
-section>div>h1{
+.top>div>h1{
     color: #FFF;
     font-family: Lato;
     font-size: 80px;
@@ -101,7 +101,7 @@ section>div>h1{
     line-height: 84px; /* 105% */
     margin: 0 0 40px 0;
 }
-section>div>p{
+.top>div>p{
     color: rgba(255, 255, 255, 0.70);
     font-family: Lato;
     font-size: 21px;
@@ -110,6 +110,7 @@ section>div>p{
     line-height: 39px; /* 185.714% */
     letter-spacing: -0.657px;
     margin: 0;
+    width: 36.3vw;
 }
 .top>div>button {
     color: #FFF;
@@ -128,6 +129,9 @@ section>div>p{
     align-items: center;
     margin-top: 50px;
     padding: 0 60px 5px 0;
+}
+.top>div.top-img{
+    margin: 0 40px 0 0;
 }
 .mid-1{
     width: 100vw;
@@ -286,7 +290,7 @@ section>div>p{
 }
 footer{
     width: 100vw;
-    height: 50vh;
+    height: 45vh;
     background-color: #1E1E2080;
     display: flex;
     justify-content: center;
@@ -321,7 +325,7 @@ footer>div>button{
 }
 .bot{
     width: 100vw;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     justify-content: space-between;
 }
@@ -335,5 +339,8 @@ footer>div>button{
     font-weight: 400;
     line-height: 38px; /* 237.5% */
     letter-spacing: -0.5px;
-    margin: 52px 120px;
+    margin: 45px 120px;
+}
+.bot.logo{
+    margin-top: 50px;
 }
