@@ -21,6 +21,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
 }
 .menu{
     width: 43vw;
@@ -34,13 +39,6 @@ header>div>img, .bot>div>img{
     width: 40px;
     height: 40px;
     margin: 5px;
-}
-header>div.logo>p{
-    font-family: Montserrat;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 140%;
 }
 header>div.menu>a{
     color: rgba(255, 255, 255, 0.70);
@@ -325,7 +323,8 @@ footer>div>button{
     display: flex;
     justify-content: space-between;
 }
-.bot>p{
+
+.Rights{
     color: rgba(255, 255, 255, 0.70);
     text-align: right;
     font-family: Lato;
@@ -334,14 +333,5 @@ footer>div>button{
     font-weight: 400;
     line-height: 38px; /* 237.5% */
     letter-spacing: -0.5px;
-    margin: 0 120px 0 0;
-
-}
-.bot>div>p{
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 140%; /* 39.2px */
+    margin: 51px 120px 0 0;
 }
